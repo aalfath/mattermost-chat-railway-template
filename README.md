@@ -1,5 +1,7 @@
 # Mattermost on Railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/mattermost-2?utm_medium=integration&utm_source=button&utm_campaign=mattermost)
+
 A Railway template for [Mattermost](https://mattermost.com) Team Edition, the open-source team chat with channels, threads, file sharing and search.
 
 ## What it deploys
