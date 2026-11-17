@@ -8,7 +8,7 @@ A Railway template for [Mattermost](https://mattermost.com) Team Edition, the op
 
 | Service | Source | Notes |
 |---|---|---|
-| **Mattermost** | this repo (`Dockerfile`) | `mattermost/mattermost-team-edition:12.0.2`, pinned by digest. Public domain, health check `/api/v4/system/ping`, volume at `/mattermost/data` |
+| **Mattermost** | this repo (`Dockerfile`) | `mattermost/mattermost-team-edition:12.1.0`, pinned by digest. Public domain, health check `/api/v4/system/ping`, volume at `/mattermost/data` |
 | **Postgres** | Railway PostgreSQL | Messages, users, teams and the System Console settings |
 
 The official image has no shell, so the `Dockerfile` copies in a pinned static busybox to run `start.sh`. The script:
